@@ -1,0 +1,119 @@
+.navbar-brand {
+  color: #000;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+#login-btn {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+#login-btn:hover {
+  background-color: #FF9800;
+  color: #000;
+}
+
+.cart {
+  color: black;
+}
+
+.cart:hover {
+  color: #FF9800;
+}
+
+.filter-btn {
+  background-color: transparent;
+  border: 2px solid #FF9800  ;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #FF9800  ;
+  color: black;
+}
+
+.filter-btn.active {
+  background-color: #FF9800  ;
+  color: black;
+  border: 2px solid #FF9800  ;
+}
+
+.card {
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.notes-btn {
+  background-color: #e5e4e4;
+  width: 65px;
+  height: 25px;
+  font-size: 13px;
+  transition: background-color 0.3s;
+}
+
+.notes-btn:hover{
+  background-color: #b4b1b1;
+}
+
+#add-btn,
+#login-empty-btn,
+#bayar-btn,
+#save-btn {
+  background-color: #FF9800  ;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+#add-btn:hover,
+#login-empty-btn,
+#bayar-btn,
+#save-btn {
+  background-color: #FF9800  ;
+  color: white;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.product img {
+  height: 5rem;
+  object-fit: contain;
+}
+
+.input-group .btn:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.bayar-btn {
+  background-color: #FF9800;
+  color: white;
+}
+
+.bayar-btn:hover {
+  background-color: #FF9800;
+  color: white;
+}
+
+.modern-number-input::-webkit-inner-spin-button,
+.modern-number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+    /* Chrome, Safari, Edge */
+  margin: 0;
+}

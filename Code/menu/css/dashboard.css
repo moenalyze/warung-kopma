@@ -1,0 +1,30 @@
+nav {
+  background-color: #d17878 ;
+}
+
+.offcanvas-title {
+  background-color: #F5F5DC;
+}
+
+.offcanvas-body {
+  background-color: #FFF3E0;
+}
+
+#dashboard-link:hover,
+#menu-link:hover,
+#pesanan-link:hover,
+#pengguna-link:hover {
+  text-decoration: underline;
+}
+
+#logout-btn {
+  background-color: #FF9800;
+}
+
+#logout-btn:hover {
+  background-color: #bc7100;
+}
+
+.tambah-btn:hover {
+  background-color: #bc7100;
+}
